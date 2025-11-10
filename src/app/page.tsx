@@ -12,6 +12,13 @@ import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import { Award, ChefHat, Handshake, Star, Wheat } from "lucide-react";
 
+const assetMap = [
+  { id: "1", url: "https://pixabay.com/get/g3a95f668272eff507c6a70b5325cf15237c2f1538003a45f2c5c09212f248f55c53dbd897d14bbea2ae12ad96ba29f86b4492819974add58308c3de590a17370_1280.jpg", alt: "Warm bakery interior with fresh bread" },
+  { id: "2", url: "https://pixabay.com/get/g9d855b0d6d840b1e5d84800beac173843bdf6110dfe3800f6cc3f2c1164aa9a06b3b4d8e5aebb83adbc10a7d5bd1388b07c9c79276e1922c4ea07b310ea5ed47_1280.jpg", alt: "Golden butter croissants" },
+  { id: "3", url: "https://pixabay.com/get/gd020adb9313ef2db92df1e1054253011c15706c3719e4e36924432d4816dfbfcb27273019f189131369ae7fc787c50d69c3cb7fe8fea225da4617b17bfe8b9a3_1280.jpg", alt: "Rustic sourdough bread loaf" },
+  { id: "4", url: "https://pixabay.com/get/gd5e6eff33ccce4864cfa0fdd9235655fd2660a70a98a663d3ae159dd815edc2454574ea9d7d865c9f9e9105f612ceeff4811589e939984160b14bd03bc081ac1_1280.jpg", alt: "Assorted danish pastries" }
+];
+
 export default function Home() {
   return (
     <ThemeProvider
