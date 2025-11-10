@@ -48,7 +48,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Loh Pidor"
+          title="Fresh Artisan Bread Daily"
           description="Experience the authentic taste of artisan bread and pastries, made with premium ingredients and traditional techniques passed down through generations."
           tag="Artisan Bakery"
           tagIcon={Wheat}
@@ -64,7 +64,7 @@ export default function Home() {
 
       <div id="products" data-section="products">
         <ProductCardTwo
-          title="Dima pidor"
+          title="Handcrafted Daily Selections"
           description="Discover our handcrafted selection of breads, pastries, and baked goods made fresh daily"
           tag="Menu"
           tagIcon={ChefHat}
